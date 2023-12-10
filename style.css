@@ -1,0 +1,32 @@
+:root {
+    --bs-body-bg: #000;
+    --bs-body-color: #eee;
+    --bs-emphasis-color: #fff;
+    --bs-primary-color: #f00;
+}
+
+
+.carousel-item img {
+    margin: 0 auto;
+    width: auto;
+}
+
+a.hotspots,
+span.hotspots {
+    color: #f00;
+    font-weight: bold;
+}
+
+i.player {
+    font-size: 2rem;
+}
+
+a {
+    color: #f00;
+}
+
+h1,
+h2,
+h3.song-title {
+    color: #ff0 !important;
+}
