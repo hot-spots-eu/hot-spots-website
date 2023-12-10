@@ -8,11 +8,13 @@ on:
 jobs:
   deploy-website:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
     - uses: actions/checkout@v4
     - name: GitHub Pages action
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: src
+        publish_dir: ./src
         cname: hot-spots.eu
